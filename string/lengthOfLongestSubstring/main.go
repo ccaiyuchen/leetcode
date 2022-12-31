@@ -17,7 +17,6 @@ func lengthOfLongestSubstring(s string) (ans int) {
 		ans = max(ans, i-j+1)
 		pos[s[i]] = i
 	}
-	fmt.Println()
 	return ans
 }
 
